@@ -1,3 +1,3 @@
-function out = p1(x)
+function out = p3(x)
     out = 4;
 end

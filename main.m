@@ -116,7 +116,7 @@ if const_num == 3 && debug == 1
     
 else
  
-    [x, u, u_prime, totiter] = rungekutta(a, b, h);
+    [x, u, u_prime, u_prime_prime, u_prime_prime_prime, totiter] = rungekutta(a, b, h);
 end
 C1 = zeros(1,totiter);
 C2 = zeros(1,totiter);
